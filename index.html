@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Portfolio</title>
+
+  <!-- Tailwind CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-200 text-black font-sans">
+
+  <!-- HEADER -->
+  <header class="bg-blue-700 shadow-md">
+    <div class="max-w-5xl mx-auto px-6 py-6 text-center">
+      <h1 class="text-3xl font-bold text-gray-200">Edwin Ngengi</h1>
+        <a href="https://github.com/yourusername" class="text-gray-200 hover:text-green-400 transition">GitHub Profile</a>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="max-w-5xl mx-auto px-6 py-10">
+
+    <!-- ABOUT SECTION -->
+    <section id="about" class="mb-16">
+      <h2 class="text-2xl font-semibold text-blue-500 mb-4">About Me</h2>
+      <p class="text-black leading-relaxed">
+        I am a passionate web developer learning how to build modern and responsive websites.
+        I enjoy working with HTML, CSS, and JavaScript to create user-friendly experiences.
+      </p>
+
+      <!-- Skills -->
+      <div class="mt-6">
+        <h3 class="text-blue-500 font-semibold mb-2">Skills</h3>
+        <ul class="flex flex-wrap gap-3">
+          <li class="bg-gray-800 text-white px-3 py-1 rounded-full">HTML</li>
+          <li class="bg-gray-800 text-white px-3 py-1 rounded-full">CSS</li>
+          <li class="bg-gray-800 text-white px-3 py-1 rounded-full">JavaScript</li>
+          <li class="bg-gray-800 text-white px-3 py-1 rounded-full">Tailwind</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+      <h2 class="text-2xl font-semibold text-blue-500 mb-6">Projects</h2>
+
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <!-- Project 1 -->
+        <article class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transition">
+          <h3 class="text-white font-bold mb-2">Project One</h3>
+          <p class="text-gray-200 mb-4">
+            A simple project description explaining what the project does.
+          </p>
+          <a href="#" class="text-indigo-400 hover:underline">View Project</a>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="bg-gray-800 p-6 rounded-lg shadow hover:scale-105 transition">
+          <h3 class="text-white font-bold mb-2">Project Two</h3>
+          <p class="text-gray-200 mb-4">
+            Another project showcasing your frontend or backend skills.
+          </p>
+          <a href="#" class="text-indigo-400 hover:underline">View Project</a>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="bg-gray-800 mt-16">
+    <div class="text-center py-6 text-gray-200">
+      © 2026 Edwin Ngengi. All rights reserved.
+    </div>
+  </footer>
+
+</body>
+</html>
